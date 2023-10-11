@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+}
+nav{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    text-align: center;
+    align-items: center;
+}
+.menu1{
+    display: flex;
+    gap: 40px;
+}
+.button{
+    background-color: green;
+    padding: 3px;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    transition: .5s;
+}
+.button:active{
+    background-color: white;
+    border: 1px solid green;
+    color: green;
+}
+.body{
+    width: 100%;
+    height: calc(100vh - 50px);
+    background-color: aqua;
+    display: flex;
+}
+.text{
+    width: 50%;
+    height: calc(100vh - 50px);
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+    flex-direction: column;
+    gap: 50px;
+    position: relative;
+}
+.barg{
+    position: absolute;
+    bottom: 150px;
+    right: 1px;
+
+}
+.photo{
+    width: 50%;
+    height: calc(100vh - 50px);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.btn{
+    width: 150px;
+    height: 30px;
+    background-color: green;
+    border: none;
+    font-size: 20px;
+    border-radius: 6px;
+}
+.cactus{
+    width: 250px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 100px;
+    right: 5px;
+}
+.cactus2{
+    width: 250px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 180px;
+    left: 5px;
+}
+.cactus3{
+    width: 250px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 100px;
+    right: 5px;
+}
+.scrol-widht{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    margin: 30px 0;
+}
+.sw-text{
+    width: 30%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    letter-spacing: 3px;
+    padding: 20px;
+}
+.sw-pht{
+    width:70%;
+    height: 28vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.sw-pht img{
+    width: 500px;
+    height: 100%;
+    object-fit: contain;
+}
+.line1{
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    margin:30px 0 20px 0;
+}
+.l1-pht{
+    width: 50%;
+    height: 45vh;
+}
+.l1-text{
+    width: 50%;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    gap: 10px;
+}
+.l1-pht img{
+    width: 100%;
+    height: 50vh;
+    object-fit: contain;
+}
+.tt{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+.title{
+    width: 50%;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+.line2{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.l2-pht1{
+    width: 20%;
+    height: 35vh;
+    background-image: url(./line2/Rectangle\ 32.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.l2-1{
+    width: 200px;
+    height:150px;
+    object-fit: contain;
+    display: flex;
+    text-align: center;
+}
+.l2-2{
+    width: 100px;
+    height: 60px;
+}
+.line3{
+    width: 100%;
+    height: 35vh;
+    background-image: url(./back3.png);
+    display: flex;
+}
+.l3-text{
+    width: 50%;
+    height: 100%;
+    padding: 15px;
+}
+.l3-pht{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.line4{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+.line5{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+}
+.l5-text1{
+    width: 40%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+.l5-text2{
+    width: 60%;
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    line-height: 30px;
+}
